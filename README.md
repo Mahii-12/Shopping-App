@@ -5,7 +5,7 @@
 
 ## Entities:
  * Users:
-   > Represents the users of your application.
+   > Represents the users of shopping application.
 * Products:
    > Represents the products available for purchase.
  * Orders:
