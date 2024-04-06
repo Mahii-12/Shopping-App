@@ -3,8 +3,7 @@ package com.example.demo.model;
 import java.util.ArrayList;
 import java.util.List;
 
-@Entity
-@Table(name="Coupon")
+
 public class Coupon {
 
     public static final String OFF5_CODE = "OFF5";
