@@ -40,7 +40,7 @@
 ## CRUD Operations:
 * Implemented CRUD (Create, Read, Update, Delete) operations for managing users, their orders and users transactions effectively. Ensured seamless handling of user and order for products data manipulation for enhanced user experience.
 
-+---------------+        1         +--------------+
+         +---------------+        1         +--------------+
          |    Products   |<---------------|    Orders    |
          +---------------+     1..*        +--------------+
          | productId (PK)|                  | orderId (PK) |
