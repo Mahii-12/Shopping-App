@@ -40,12 +40,7 @@
 ## CRUD Operations:
 * Implemented CRUD (Create, Read, Update, Delete) operations for managing users, their orders and users transactions effectively. Ensured seamless handling of user and order for products data manipulation for enhanced user experience.
 
-
-## Testing and Validation:
-* Utilized Postman for comprehensive testing and validation of REST endpoints. Conducted functional testing to ensure correct behavior and adherence to specified requirements, enhancing system reliability.
-
-## ER Diagrams: 
-  +---------------+        1         +--------------+
++---------------+        1         +--------------+
          |    Products   |<---------------|    Orders    |
          +---------------+     1..*        +--------------+
          | productId (PK)|                  | orderId (PK) |
@@ -72,5 +67,11 @@
          | password     |
          +--------------+
 
+
+## Testing and Validation:
+* Utilized Postman for comprehensive testing and validation of REST endpoints. Conducted functional testing to ensure correct behavior and adherence to specified requirements, enhancing system reliability.
+
+## ER Diagrams: 
+  
 
                      
