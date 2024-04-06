@@ -3,8 +3,17 @@
 ## Java, Maven, Spring Boot, Hibernate: 
 * I chose Java as the programming language due to its robustness and widespread usage. Spring Boot simplifies the setup of Spring-based applications, while Hibernate facilitates object-relational mapping (ORM) for  streamlining database interactions and Spring Security with JWT authentication and authorization mechanisms.
 
+## Entities:
+ * Users:
+   > Represents the users of your application.
+* Products:
+   > Represents the products available for purchase.
+ * Orders:
+   > Represents the orders placed by users, containing details such as the products ordered, quantity, total amount, and any applied discounts.
+
 ## MySQL Database:
-* Utilized MySQL database to store user, account, and transaction data. MySQL offers robust relational database management capabilities, ensuring efficient data storage and retrieval.
+* Used MySQL as the database to store user information, product details, and order information.
+* The database schema includes tables for users, products, and orders, with appropriate relationships established between them.
 
 ## Scalability and SOLID Principles:
 
