@@ -44,7 +44,7 @@
 ## Testing and Validation:
 * Utilized Postman for comprehensive testing and validation of REST endpoints. Conducted functional testing to ensure correct behavior and adherence to specified requirements, enhancing system reliability.
 
-
+## ER Diagrams: 
   +---------------+        1         +--------------+
          |    Products   |<---------------|    Orders    |
          +---------------+     1..*        +--------------+
