@@ -42,18 +42,37 @@
 
 ## Class Diagrmas For the Application Entities:
 
-+-----------------+         +------------------+         +-----------------+          +-----------------+
-|      Users      |         |      Orders      |         |     Products    |          |     Coupons     |
-+-----------------+         +------------------+         +-----------------+          +-----------------+
-| - userId: Long  |         | - orderId: Long  |         | - productId: Long |          | - couponCode: String |
-| - username: String |       | - quantity: int  |         | - productName: String |      | - discountPercent: int |
-| - email: String |         | - coupon: String  |         | - productPrice: double |      +-----------------+
-| - password: String |      | - amount: double |         | - availableQuantities: int |
-| - orders: List<Orders> |   | - date: LocalDate |       +-----------------+   
-+-----------------+         | - status: String |             
-                             | - transactionId: String |
-                             +------------------+
+Users:
+------
+- userId: Long
+- username: String
+- email: String
+- password: String
+- orders: List<Orders>
 
+Orders:
+-------
+- orderId: Long
+- quantity: int
+- coupon: String
+- amount: double
+- date: LocalDate
+- status: String
+- transactionId: String
+
+Products:
+---------
+- productId: Long
+- productName: String
+- productPrice: double
+- availableQuantities: int
+
+Coupons:
+--------
+- OFF5_CODE: String = "OFF5"
+- OFF10_CODE: String = "OFF10"
+- OFF5_DISCOUNT_PERCENTAGE: int = 5
+- OFF10_DISCOUNT_PERCENTAGE: int = 10
 
 ## ER Diagrams For Shopping Application: 
 
