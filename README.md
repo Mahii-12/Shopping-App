@@ -1,8 +1,8 @@
 # Technology Stack:
 
 ## Java, Maven, Spring Boot, Hibernate: 
-* I chose Java as the programming language due to its robustness and widespread usage. Spring Boot simplifies the setup of Spring-based applications, while Hibernate facilitates object-relational mapping (ORM) for  streamlining database interactions and Spring Security with JWT authentication and authorization mechanisms.
-
+* I chose Java as the programming language due to its robustness and widespread usage. Spring Boot simplifies the setup of Spring-based applications, while Hibernate facilitates object-relational mapping (ORM) for  streamlining database interactions.
+  
 ## Entities:
  * Users:
    > Represents the users of shopping application.
