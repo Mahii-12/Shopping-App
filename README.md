@@ -11,9 +11,25 @@
  * Orders:
    > Represents the orders placed by users, containing details such as the products ordered, quantity, total amount, and any applied discounts.
 
+## Discounts:
+ * I have implemented discount functionality using constants like "Off5" and "Off10".
+ * Users can select these discounts during the order placement process, allowing them to avail of special offers and promotions.
+
 ## MySQL Database:
 * Used MySQL as the database to store user information, product details, and order information.
 * The database schema includes tables for users, products, and orders, with appropriate relationships established between them.
+
+## Relationship Mapping:
+
+ * I've established one-to-many relationships between users and products, indicating that a user can have multiple products associated with them.
+ * Additionally, I've used many-to-many relationships between orders and products, allowing multiple products to be included in a single order and a product to be part of multiple orders.
+
+## Functionality:
+
+ * Users can register and login to the application to place orders.
+ * They can browse the available products, view product details, and add products to their cart.
+ * During the checkout process, users can specify the quantity of each product they want to purchase and apply discounts if applicable.
+ * Once the order is placed, it is stored in the database, and users can view their order history.
 
 ## Scalability and SOLID Principles:
 
