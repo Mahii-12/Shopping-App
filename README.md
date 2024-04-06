@@ -40,7 +40,22 @@
 ## CRUD Operations:
 * Implemented CRUD (Create, Read, Update, Delete) operations for managing users, their orders and users transactions effectively. Ensured seamless handling of user and order for products data manipulation for enhanced user experience.
 
-## ER Diagram For Shopping Application: 
+## Class Diagrmas For the Application Entities:
+
++-----------------+         +------------------+         +-----------------+          +-----------------+
+|      Users      |         |      Orders      |         |     Products    |          |     Coupons     |
++-----------------+         +------------------+         +-----------------+          +-----------------+
+| - userId: Long  |         | - orderId: Long  |         | - productId: Long |          | - couponCode: String |
+| - username: String |       | - quantity: int  |         | - productName: String |      | - discountPercent: int |
+| - email: String |         | - coupon: String  |         | - productPrice: double |      +-----------------+
+| - password: String |      | - amount: double |         | - availableQuantities: int |
+| - orders: List<Orders> |   | - date: LocalDate |       +-----------------+   
++-----------------+         | - status: String |             
+                             | - transactionId: String |
+                             +------------------+
+
+
+## ER Diagrams For Shopping Application: 
 
      +--------------+          +--------------+         +--------------+
      |   Users      |          |   Orders     |         |   Products   |
